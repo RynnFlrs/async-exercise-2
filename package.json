@@ -1,0 +1,28 @@
+{
+  "name": "async-exercise-2",
+  "version": "1.0.0",
+  "description": "Spec: We need to create an asynchronous function that accepts a numeric parameter from 0 to 20000. If the parameter is invalid, throw an Error indicating \"Par1 is invalid\". The function will resolve after waiting for 1 second plus the value of par 1 (using setInterval). This means if par1 value is 500, then the resolve (or reject) will occur after 1500 ms.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RynnFlrs/async-exercise-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RynnFlrs/async-exercise-2/issues"
+  },
+  "homepage": "https://github.com/RynnFlrs/async-exercise-2#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
